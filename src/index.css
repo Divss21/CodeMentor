@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cream: #F7F1E3;
+    --cream-light: #FDFBF7;
+    --cream-dark: #EDE5D0;
+    --forest: #234236;
+    --forest-dark: #193128;
+    --forest-light: #2D5445;
+    --forest-surface: #EAF0EC;
+    --orange: #C65D32;
+    --orange-light: #DF7346;
+    --orange-surface: #FBEFEA;
+    --mustard: #D6A84F;
+    --mustard-light: #E7BF6D;
+    --mustard-surface: #FDF9EE;
+    --espresso: #332A24;
+    --espresso-muted: #6B5B52;
+    --espresso-light: #948277;
+    --sage: #A8B89F;
+    --sage-light: #DCE5D8;
+    --sage-surface: #F2F6F0;
+  }
+
+  body {
+    background-color: var(--cream);
+    color: var(--espresso);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+  }
+}
+
+/* Notebook paper subtle grid texture */
+.paper-pattern {
+  background-color: #F7F1E3;
+  background-image: radial-gradient(#D8CEB8 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+}
+
+.notebook-border {
+  border: 1px solid rgba(51, 42, 36, 0.12);
+  box-shadow: 0 4px 12px -2px rgba(51, 42, 36, 0.05);
+}
+
+.notebook-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 42, 36, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(51, 42, 36, 0.04);
+}
+
+/* Custom code scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(51, 42, 36, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 42, 36, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(51, 42, 36, 0.35);
+}

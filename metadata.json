@@ -1,0 +1,7 @@
+{
+  "name": "CodeMentor AI",
+  "description": "AI code tutor that detects concept gaps and misconceptions, explains errors progressively, and generates personalized practice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
